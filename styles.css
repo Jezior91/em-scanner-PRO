@@ -1,0 +1,28 @@
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+canvas {
+  image-rendering: pixelated;
+}
+
+.scan-active canvas {
+  box-shadow: 0 0 8px rgba(0, 255, 128, 0.3);
+}
+
+/* Smooth tab transitions */
+.tab-content-enter {
+  opacity: 0;
+  transform: translateY(4px);
+}
+.tab-content-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 150ms, transform 150ms;
+}

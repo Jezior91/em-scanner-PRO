@@ -1,0 +1,6 @@
+{
+  "name": "em-scanner-pro",
+  "displayName": "EM Scanner PRO v4",
+  "description": "Zaawansowany mobilny skaner elektromagnetyczny — 16 modułów: SDR, BLE, EMF, TEMPEST, CoT/ATAK, P2P Mesh, HackRF WebUSB i więcej",
+  "instantAppType": "tsx"
+}
